@@ -1,0 +1,6 @@
+.app {
+  width: 100%;
+  max-width: 840px;
+  box-sizing: border-box;
+  padding: 15px;
+}

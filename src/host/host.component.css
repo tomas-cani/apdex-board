@@ -1,0 +1,48 @@
+.host {
+  box-sizing: border-box;
+  max-width: 375px;
+  margin: 15px;
+  padding: 30px;
+  font-size: 16px;
+  line-height: 19px;
+  background-color: #fff;
+}
+
+.list .host {
+  min-width: calc(100% - 30px);
+}
+
+.host-name {
+  margin: 0;
+  font-size: 16px;
+}
+
+.host-apps {
+  margin: 0;
+  padding: 0;
+  justify-content: left;
+  list-style-type: none;
+}
+
+.host-apps .host-app:last-child {
+  margin-bottom: 0;
+}
+
+.host-app {
+  margin: 23px 0;
+  color: #4a4a4a;
+  display: flex;
+  line-height: 19px;
+}
+
+.apdex {
+  opacity: 0.62;
+  font-size: 13px;
+  margin: 0;
+  min-width: 35px;
+}
+
+.host-app-name {
+  cursor: pointer;
+  margin: 0
+}
